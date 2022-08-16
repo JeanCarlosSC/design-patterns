@@ -1,8 +1,8 @@
-import creational.abstract_factory.AbstractFactory;
+import creational.abstract_factory.AbstractFactoryDemo;
 import creational.builder.Builder;
 import creational.factory_method.FactoryMethodDemo;
 import creational.prototype.Prototype;
-import creational.singleton.Singleton;
+import creational.singleton.SingletonDemo;
 
 import java.util.Scanner;
 
@@ -59,11 +59,11 @@ public class Main {
                 goToMenu();
                 break;
             case 2:
-                Singleton.execute();
+                SingletonDemo.execute();
                 goToMenu();
                 break;
             case 3:
-                AbstractFactory.execute();
+                AbstractFactoryDemo.execute();
                 goToMenu();
                 break;
             case 4:
