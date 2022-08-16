@@ -5,7 +5,10 @@ public class FactoryMethodDemo {
         FactoryMethodDemo.execute();
     }
     public static void execute() {
-        Profesor jean = ProfesorFactory.crearProfesor("Jean Carlos", 5);
-        System.out.println("El profesor "+jean.getNombre()+", es un "+jean.getEstado());
+        Prestamo prestamo1 = PrestamoFactory.crearPrestamo("9780571295692", true);
+        System.out.println("\nLos detalles del prestamo 1 son:\n"+prestamo1.getDetalles());
+
+        Prestamo prestamo2 = PrestamoFactory.crearPrestamo("9782918767763", false);
+        System.out.println("\nLos detalles del prestamo 2 son:\n"+prestamo2.getDetalles());
     }
 }
