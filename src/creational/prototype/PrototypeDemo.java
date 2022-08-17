@@ -1,8 +1,8 @@
 package creational.prototype;
 
-public class Prototype {
+public class PrototypeDemo {
     public static void main (String[] args) {
-        Prototype.execute();
+        PrototypeDemo.execute();
     }
     public static void execute() {
 
