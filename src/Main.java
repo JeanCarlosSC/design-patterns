@@ -1,5 +1,5 @@
 import creational.abstract_factory.AbstractFactoryDemo;
-import creational.builder.Builder;
+import creational.builder.BuilderDemo;
 import creational.factory_method.FactoryMethodDemo;
 import creational.prototype.PrototypeDemo;
 import creational.singleton.SingletonDemo;
@@ -71,7 +71,7 @@ public class Main {
                 goToMenu();
                 break;
             case 5:
-                Builder.execute();
+                BuilderDemo.execute();
                 goToMenu();
                 break;
             default:
